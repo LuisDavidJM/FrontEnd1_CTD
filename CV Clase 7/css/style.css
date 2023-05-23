@@ -1,0 +1,59 @@
+
+.center-content {
+    text-align: center;
+}
+.center-content img {
+    width: 100px;
+    height: auto;
+}
+
+h1, h2 {
+    background-color: #C4C4C4;
+    color: #005677;
+    padding: 10px 0;
+    letter-spacing: 10px;
+}
+
+#space {
+    height: 100px;
+}
+
+h2 {
+    padding: 5px 0;
+}
+
+ul li{
+    line-height: 30px;
+}
+
+.cursiva {
+    font-style: italic;
+}
+
+p{
+    margin-left: 25px;
+}
+
+.space-left{
+    margin-left: 105px;
+}
+
+footer {
+    font-size: 30px;
+    text-align: center;
+    background-color: #005677;
+    color: white;
+}
+
+footer p {
+    display: inline-block;
+}
+
+footer a {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+footer a img {
+    width: 20px;
+}
