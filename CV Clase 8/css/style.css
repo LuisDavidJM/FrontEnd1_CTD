@@ -1,0 +1,91 @@
+/*Estilos generales*/
+body {
+    font-family: 'Roboto Slab', serif;
+}
+
+.center-content {
+    text-align: center;
+}
+.center-content img {
+    margin-top: 5px;
+    width: 100px;
+    height: auto;
+}
+
+.back-img {
+    width: 100%;
+    height: 100px;
+    background-image: url('../img/banner.jpeg');
+}
+
+nav {
+    background-color: rgb(151, 166, 175);
+    padding: 20px;
+}
+
+nav a {
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(0, 0, 60);
+    text-transform: uppercase;
+}
+
+h1, h2 {
+    background-color: #C4C4C4;
+    color: #005677;
+    padding: 10px 0;
+    letter-spacing: 10px;
+}
+
+#space {
+    height: 10px;
+}
+
+h2 {
+    padding: 5px 0;
+}
+
+ul li{
+    line-height: 30px;
+}
+
+.cursiva {
+    font-style: italic;
+}
+
+p{
+    margin-left: 25px;
+}
+
+.space-left{
+    margin-left: 105px;
+}
+
+footer {
+    font-size: 30px;
+    text-align: center;
+    background-color: #005677;
+    color: white;
+}
+
+footer p {
+    display: inline-block;
+}
+
+footer a {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+footer a img {
+    width: 30px;
+}
+
+/*Estilos de Sobre mi*/
+
+.aboutme {
+    margin: 50px 200px;
+    padding: 50px;
+    background-color: #faebd7;
+
+}
