@@ -1,0 +1,208 @@
+
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#menu1 {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 4px 90px;
+}
+
+#menu1 ul {
+    display: flex;
+}
+
+#menu1 ul li{
+    list-style: none;
+    margin-left: 12px;
+}
+
+#menu2 {
+    background-color: #F0A83E;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 40px;
+}
+
+#menu2 ul {
+    display: flex;
+}
+
+#menu2 ul li{
+    list-style: none;
+    margin-left: 20px;
+}
+
+#menu2 .menu-icon {
+    display: none;
+}
+
+.banner {
+    background-image: url('../img/bowl-and-pet-daities-on-green-background 1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    text-align: center;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.banner article{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.banner div {
+    width: 60%;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 400;
+    padding: 15px 10px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.banner h2 {
+    margin: 12px 0;
+}
+
+.cta {
+    color: white;
+    background-color: #F0A83E;
+    padding: 20px 23px;
+    display: inline-block;
+}
+
+.pd {
+    text-align: center;
+}
+
+.pd h2 {
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.p-light {
+    color: gray;
+    font-size: 13px;
+}
+
+.pd .p-light {
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 0 95px;
+}
+
+.articles article {
+    background-color: #FBFAF6;
+    width: 265px;
+    height: 312px;
+    text-align: center;
+    padding-bottom: 5px;
+    margin-bottom: 78px;
+}
+
+.price {
+    color: #F0A83E;
+}
+
+footer {
+    background-color: #3C2313;
+    color: white;
+    padding: 20px 70px;
+    padding-bottom: 0;
+}
+
+.up-footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.up-footer .contact-origin .contact{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.contact div {
+    margin-left: 20px;
+}
+
+#copy {
+    font-size: 10px;
+    color: white;
+    margin: 0 -70px;
+    text-align: center;
+    background-color: #222222;
+    height: 20px;
+    padding-top: 3px;
+}
+
+@media (max-width: 414px) {
+    #menu1{
+        display: none;
+    }
+
+    #menu2 nav{
+        display: none;
+    }
+
+    #menu2 .menu-icon {
+        display: block;
+    }
+
+    .up-footer {
+        flex-direction: column-reverse;
+    }
+
+    .up-footer .contact-origin{
+        margin-top: 30px;
+    }
+
+    .banner div {
+        display: none;
+    }
+
+    .banner article{
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        padding: 0px 30px;
+    }
+
+    h1 {
+        font-size: 1.7rem;
+    }
+
+    .banner h2 {
+        font-size: 1.2rem;
+        align-self:flex-end;
+    }
+
+    .cta {
+        align-self: flex-end;
+        margin-right: 30px;
+    }
+}
