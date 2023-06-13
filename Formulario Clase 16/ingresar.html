@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Justice Ligue</title>
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <header>
+        <p id="descuento">20% de descuento en todos los productos!</p>
+        <section class="banner">
+            <img src="img/OBJECTS.png" alt="Computadora">
+            <h1>Card Super Heroes</h1>
+        </section>
+        <nav>
+            <ul>
+                <li><a href="#">Contacto</a></li>
+                <li><a href="#">Registrarme</a></li>
+                <li><a href="ingresar.html">Ingresar</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="form">
+            <h2>Añadir tu super</h2>
+            <p>Agrega tu personaje favorito completando las opciones.</p>
+            <form action="/registro" method="get">
+                <div id="form">
+                    <div>
+                        <label for="name">*Nombre</label>
+                        <input type="text" id="name" name="name">
+    
+                        <label for="date">*Fecha</label>
+                        <input type="date" id="date" name="date">
+    
+                        <textarea name="description" id="description" cols="30" rows="10" placeholder="Descripción"></textarea>
+                    </div>
+                    <div>
+                        <label for="especie">*Especie</label>
+                        <input type="text" id="especie" name="especie">
+    
+                        <label for="img">Agregar Foto</label>
+                        <input type="file" id="img" name="img">
+    
+                        <label for="power">Poderes</label>
+                        <input type="checkbox" name="power" id="power" >Volar
+                        <br>
+                        <input type="checkbox" name="power" id="power" >Super inteligencia
+                        <br>
+                        <input type="checkbox" name="power" id="power" >Vista de rayo laser
+                        <br>
+                        <input type="checkbox" name="power" id="power" >Billetera gorda
+                        <hr>
+    
+                        <label for="type">Tipo de personaje</label>
+                        <input type="radio" name="type" id="type" >Héroe / Heroina
+                        <br>
+                        <input type="radio" name="type" id="type" >Villano / Villana
+                    </div>
+                </div>
+                <button type="submit">Añadir</button>
+            </form>
+        </div>
+    </main>
+    <footer>
+        Todos los derechos reservados a FRONT END 1
+    </footer>
+
+</body>
+</html>
